@@ -1,3 +1,4 @@
+
 body {
     background-color: #fff;
     color: #212529;
@@ -9,6 +10,7 @@ body {
     font-family: 'Merriweather', serif;
 }
 
+
 .header {
     background-color: #477bff;
     color: #fff;
@@ -18,8 +20,10 @@ body {
     /*font-family: 'Sacramento', cursive;*/
 }
 
+
 .header h1 {
     font-family: 'Sacramento', cursive;
+    margin-top: 50px;
 }
 
 .container .triva-button {
@@ -40,43 +44,9 @@ body {
     cursor: pointer;
   }
 
+
 .navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    /*font-family: 'Merriweather', serif;*/
-}
-
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    /*background-color: #333;*/
-    background-color: #6B8E23;
-    /*background-color: #008080*/
     font-family: 'Merriweather', serif;
-
-}
-
-.navbar li {
-    float: left;
-}
-
-.navbar li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-.navbar li a:hover {
-    /*background-color: #111;*/
-    background-color: #008080
-
 }
 
 .container {
@@ -87,6 +57,12 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+  }
 
 .bottom-container {
     background-color: #477bff;
@@ -154,3 +130,14 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Sacramento', cursive;
 font-family: 'Zeyada', cursive;
 */
+
+.footer_spacing {
+    margin-bottom: 200px; /* adjust the value to your liking */
+}
+
+.triva-button {
+    width: 800px;
+    height: 200px;
+    font-size: 72px;
+    font-family: 'Babylonica', cursive;
+  }
