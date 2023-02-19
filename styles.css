@@ -1,4 +1,4 @@
-
+/* Body Styles */
 body {
     background-color: #fff;
     color: #212529;
@@ -10,47 +10,21 @@ body {
     font-family: 'Merriweather', serif;
 }
 
-
+/* Header Styles */
 .header {
     background-color: #477bff;
     color: #fff;
-    /*margin-bottom: 2rem;*/
     padding: 2rem 1rem;
     text-align: center;
-    /*font-family: 'Sacramento', cursive;*/
 }
-
 
 .header h1 {
     font-family: 'Sacramento', cursive;
     margin-top: 50px;
 }
 
-.container .triva-button {
-    text-align: center;
-  }
-
-.container .triva-button:hover {
-    cursor: pointer;
-  }
-
-
-
-.contact .contact-button {
-
-  }
-
-.contact .contact-button:hover {
-    cursor: pointer;
-  }
-
-
-.navbar {
-    font-family: 'Merriweather', serif;
-}
-
+/* Container Styles */
 .container {
-    /*background-color: #6495ED;*/
     background-color: #87CEEB;
     margin-left: auto;
     margin-right: auto;
@@ -58,46 +32,26 @@ body {
     padding-right: 15px;
 }
 
-.copyright {
-    color: #EAF6F6;
-    font-size: 0.75rem;
-    padding: 20px 0;
-  }
+.container .triva-button {
+    font-family: 'Babylonica', cursive;
+    font-size: 72px;
+    height: 200px;
+    text-align: center;
+    width: 800px;
+}
 
+.container .triva-button:hover {
+    cursor: pointer;
+}
+
+/* Footer Styles */
 .bottom-container {
     background-color: #477bff;
-    padding: 50px 0 20px;
     color: white;
-  }
-
-.home {
-    /*background-color: #6495ED;*/
-    text-align: center;
+    padding: 50px 0 20px;
 }
 
-.hobbies {
-    /*text-align: left;*/
-    text-align: center;
-}
-
-.contact {
-    margin-left: 20px;
-}
-
-.section {
-    padding: 0.5rem 2rem 1rem 2rem;
-}
-
-.section:hover {
-    background-color: #f5f5f5;
-    transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
-}
-
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 48px;
-}
-
+/* General Styles */
 button, input[type="submit"] {
     background-color: #d9edff;
     border: 1px solid transparent;
@@ -111,6 +65,10 @@ button, input[type="submit"] {
     vertical-align: middle;
 }
 
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+}
 
 input[type="text"] {
     line-height: 1.8;
@@ -122,22 +80,47 @@ input[type="text"]:hover {
     transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
 }
 
-/*
-font-family: 'Babylonica', cursive;
-font-family: 'Bebas Neue', cursive;
-font-family: 'Merriweather', serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Sacramento', cursive;
-font-family: 'Zeyada', cursive;
-*/
-
-.footer_spacing {
-    margin-bottom: 200px; /* adjust the value to your liking */
+.navbar {
+    font-family: 'Merriweather', serif;
 }
 
-.triva-button {
-    width: 800px;
-    height: 200px;
-    font-size: 72px;
-    font-family: 'Babylonica', cursive;
-  }
+.section {
+    padding: 0.5rem 2rem 1rem 2rem;
+}
+
+.section:hover {
+    background-color: #f5f5f5;
+    transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+/* Contact Styles */
+.contact {
+    margin-left: 20px;
+}
+
+.contact .contact-button {
+}
+
+.contact .contact-button:hover {
+    cursor: pointer;
+}
+
+/* Home Styles */
+.home {
+    text-align: center;
+}
+
+/* Hobbies Styles */
+.hobbies {
+    text-align: center;
+}
+
+/* Footer Spacing */
+.footer_spacing {
+    margin-bottom: 200px;
+}
+
+/* Copyright */
+.footer_spacing {
+    color: #EAF6F6;
+
