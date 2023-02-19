@@ -32,13 +32,14 @@ body {
     padding-right: 15px;
 }
 
-.container .triva-button {
+.triva-button {
     font-family: 'Babylonica', cursive;
     font-size: 72px;
     height: 200px;
     text-align: center;
     width: 800px;
 }
+
 
 .container .triva-button:hover {
     cursor: pointer;
